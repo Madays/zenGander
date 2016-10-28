@@ -1,0 +1,98 @@
+*{
+ /*outline: 2px solid rgba(255,0,0,1); */    
+}
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Source+Sans+Pro');
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: all 2S;
+    margin: 0;
+    background-image: url(https://demiart.ru/forum/uploads7/post-1839295-1305741519.jpeg);
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
+    background-attachment: scroll;
+    color: #fff;
+       
+    
+}
+body:hover {
+   
+}
+a {
+    text-decoration: none; 
+    color: #fff;
+    
+}
+a:hover {
+    
+    background: rgba(255,255,255,.3);  
+}
+h1,h2,h3 {
+    font-family: 'Lobster', cursive;
+}
+header {      
+    color: #fff;
+    font-size: 50px; 
+    transition: all 1s;
+}
+header:hover {
+    transform: translate(400px,1000px);
+}
+header h2 {
+   margin-top: -80px; 
+}
+.intro {
+    padding: 0 50px; 
+    text-align: center;
+}
+.preamble {
+    transition: all 2s; 
+}
+.preamble h3:hover, p:hover, abbr:hover {
+    transform: translate(25px,0px);
+    
+}
+.main {
+    display: flex;
+    text-align: justify;
+}
+.explanation {
+    padding: 30px;         
+    transition: transform 1s;
+}
+.explanation:hover {
+    transform: rotateY(360deg);
+}
+.participation {
+    padding: 30px; 
+    transition: transform 1s;
+}
+.participation:hover {
+    transform: rotateY(360deg);
+}
+.benefits {
+    padding: 30px; 
+    transition: transform 1s;
+}
+.benefits:hover {
+    transform: rotateY(360deg);
+}
+.requirements {
+    padding: 30px;
+    transition: transform 1s;
+}
+.requirements:hover {
+    transform: rotateY(360deg);
+}
+
+footer {
+    margin-top: 200px;  
+    font-size: 50px;
+    padding: 30px;
+}
+.zen-validate-html {
+    transition: font-size 2s;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
