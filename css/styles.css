@@ -57,10 +57,11 @@ header h2 {
 }
 .explanation {
     padding: 30px;         
-    transition: transform 1s;
+    transition: transform 1s;    
 }
 .explanation:hover {
     transform: rotateY(360deg);
+    border-right:  solid #fff;
 }
 .participation {
     padding: 30px; 
@@ -68,13 +69,17 @@ header h2 {
 }
 .participation:hover {
     transform: rotateY(360deg);
+    border-right:  solid #fff;
 }
 .benefits {
     padding: 30px; 
     transition: transform 1s;
+    
 }
 .benefits:hover {
     transform: rotateY(360deg);
+    border-right:  solid #fff;
+    border-right:  solid #fff;
 }
 .requirements {
     padding: 30px;
@@ -82,6 +87,7 @@ header h2 {
 }
 .requirements:hover {
     transform: rotateY(360deg);
+    border-right:  solid #fff;
 }
 
 footer {
